@@ -1,0 +1,77 @@
+create table first(
+	id int(12) primary key,
+	protocol varchar(255) not null,
+	principal varchar(255) not null,
+	co varchar(255) not null);
+
+create table A(
+	id int(12) primary key,
+	A_comment_1 text(10000) not null,
+	A_comment_2 text(10000) not null,
+	A_comment_3 text(10000) not null,
+	A_choice_1 varchar(255) not null,
+	A_choice_2 varchar(255) not null,
+	A_choice_3 varchar(255) not null);
+
+create table B(
+	id int(12) primary key,
+	B_comment_1 text(10000) not null,
+	B_comment_2 text(10000) not null,
+	B_comment_3 text(10000) not null,
+	B_choice_1 varchar(255) not null,
+	B_choice_2 varchar(255) not null,
+	B_choice_3 varchar(255) not null);
+
+create table C(
+	id int(12) primary key,
+	C_comment_1 text(10000) not null,
+	C_comment_2 text(10000) not null,
+	C_comment_3 text(10000) not null,
+	C_comment_4 text(10000) not null,
+	C_comment_5 text(10000) not null,
+	C_comment_6 text(10000) not null,
+	C_choice_1 varchar(255) not null,
+	C_choice_2 varchar(255) not null,
+	C_choice_3 varchar(255) not null,
+	C_choice_4 varchar(255) not null,
+	C_choice_5 varchar(255) not null,
+	C_choice_6 varchar(255) not null);
+
+create table D(
+	id int(12) primary key,
+	D_comment_1 text(10000) not null,
+	D_comment_2 text(10000) not null,
+	D_choice_1 varchar(255) not null,
+	D_choice_2 varchar(255) not null);
+
+create table E(
+	id int(12) primary key,
+	E_comment_1 text(10000) not null,
+	E_comment_2 text(10000) not null,
+	E_comment_3 text(10000) not null,
+	E_comment_4 text(10000) not null,
+	E_comment_5 text(10000) not null,
+	E_comment_6 text(10000) not null,
+	E_choice_1 varchar(255) not null,
+	E_choice_2 varchar(255) not null,
+	E_choice_3 varchar(255) not null,
+	E_choice_4 varchar(255) not null,
+	E_choice_5 varchar(255) not null,
+	E_choice_6 varchar(255) not null);
+
+create table F(
+	id int(12) primary key,
+	F_comment_1 text(10000) not null,
+	F_choice_1 varchar(255) not null);
+
+create table recommendation(
+	id int(12) primary key,
+	approved varchar(255) not null,
+	revisions varchar(255) not null,
+	disapproved varchar(255) not null,
+	ac text(10000) not null,
+	sign_1 varchar(255) not null,
+	upload_1 varchar(255) not null,
+	date date,
+	sign_2 varchar(255) not null,
+	upload_2 varchar(255) not null);

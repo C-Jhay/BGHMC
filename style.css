@@ -1,0 +1,106 @@
+body{ 
+    margin-top:40px; 
+}
+table{
+    text-align: left;
+    font-family: calibri;
+    background-color: #C5E0B3;
+    padding: 70px;
+    border: 1px solid #4CAF50;
+    font-size: 20px;
+  }
+tr {
+  text-align: left;
+  font-family: calibri; 
+  }
+input[type=text]{
+    color: black;
+    padding: 40px 350px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    font-size: 20px;
+    font-family: "Times New Roman", Times, serif;
+  }
+th{
+  font-size: 40px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center; 
+  }
+td{
+  font-size: 40px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center; 
+  }
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 700px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+button{
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+  }
+
+button:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+.stepwizard-step p {
+    margin-top: 10px;
+}
+
+.stepwizard-row {
+    display: table-row;
+}
+
+.stepwizard {
+    display: table;
+    width: 100%;
+    position: relative;
+}
+
+.stepwizard-step button[disabled] {
+    opacity: 1 !important;
+    filter: alpha(opacity=100) !important;
+}
+
+.stepwizard-row:before {
+    top: 14px;
+    bottom: 0;
+    position: absolute;
+    content: " ";
+    width: 100%;
+    height: 1px;
+    background-color: #ccc;
+    z-order: 0;
+
+}
+
+.stepwizard-step {
+    display: table-cell;
+    text-align: center;
+    position: relative;
+}
+
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 15px;
+}
